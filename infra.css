@@ -147,6 +147,50 @@ main {
     border-radius: 10px;
 }
 
+.conteudo {
+    max-width: 800px; /* Define uma largura máxima para o conteúdo */
+    margin: 20px auto; /* Centraliza a seção na página */
+    padding: 20px; /* Adiciona espaçamento interno */
+    background-color: #f9f9f9; /* Cor de fundo suave */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+h2 {
+    font-size: 24px; /* Tamanho da fonte para os títulos */
+    color: #333; /* Cor do texto */
+    margin-bottom: 15px; /* Espaçamento inferior */
+}
+
+ol, ul {
+    margin: 15px 0; /* Margem acima e abaixo das listas */
+    padding-left: 20px; /* Indentação das listas */
+}
+
+li {
+    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+}
+
+strong {
+    color: #007BFF; /* Cor do texto em negrito */
+}
+
+p {
+    line-height: 1.6; /* Aumenta o espaçamento entre linhas */
+    color: #555; /* Cor do texto para melhor legibilidade */
+}
+
+@media (max-width: 600px) {
+    .conteudo {
+        padding: 15px; /* Reduz o espaçamento em telas menores */
+    }
+
+    h2 {
+        font-size: 20px; /* Ajusta o tamanho da fonte em telas pequenas */
+    }
+}
+
+
 footer {
     background-color: #58B036; 
     color: white; 
