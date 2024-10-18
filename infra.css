@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background-color: #58B036;
+    padding: 20px;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 50px;  
+    height: 400px;  
+    background-color: #58B036;
+}
+
+.texto {
+    width: 50%;
+    color: white;
+}
+
+.texto h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.btn {
+    background-color: #FFC107;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+}
+
+.grande {
+    width: 250px;  
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden; 
+    transform: translateY(-50px); 
+}
+
+.grande img {
+    width: 100%;  
+    height: 100%;
+    object-fit: cover;  
+}
+
+.medio {
+    width: 165px;  
+    height: 165px;
+    border-radius: 50%;
+    overflow: hidden;
+    transform: translateY(-100px); 
+}
+
+.medio img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pequeno {
+    width: 110px;  
+    height: 110px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 55px;
+    margin-left: -50px;
+}
+
+.pequeno img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+main {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+.conteudo {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.conteudo h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.conteudo p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.imagem-conteudo {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #58B036; 
+    color: white; 
+    padding: 20px; 
+}
+
+.footer-container {
+    display: flex; 
+    justify-content: space-around;
+    align-items: flex-start; 
+    flex-wrap: wrap; 
+}
+
+.footer-item {
+    flex: 1; 
+    padding: 10px; 
+    text-align: center; 
+}
+
+.footer-item h3 {
+    margin-bottom: 10px; 
+}
+
+.footer-item p {
+    margin: 5px 0; 
+}
